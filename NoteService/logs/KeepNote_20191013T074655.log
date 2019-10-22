@@ -1,0 +1,52 @@
+2019-10-13 07:46:56 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				Starting NoteServiceApplication on ip-172-31-86-114 with PID 13414 (/home/ubuntu/Downloads/Backend/NoteService/target/classes started by ubuntu in /home/ubuntu/Downloads/Backend/NoteService)
+2019-10-13 07:46:56 [main] DEBUG c.s.keepnote.NoteServiceApplication -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-13 07:46:56 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				No active profile set, falling back to default profiles: default
+2019-10-13 07:46:58 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2019-10-13 07:46:58 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-10-13 07:46:58 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener -
+				The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+2019-10-13 07:46:58 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2019-10-13 07:46:58 [main] INFO  org.mongodb.driver.cluster -
+				Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-10-13 07:46:58 [main] INFO  org.mongodb.driver.cluster -
+				Adding discovered server localhost:27017 to client view of cluster
+2019-10-13 07:46:58 [cluster-ClusterId{value='5da2d672f8a0653466821139', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:1, serverValue:8}] to localhost:27017
+2019-10-13 07:46:58 [cluster-ClusterId{value='5da2d672f8a0653466821139', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 2]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2714768}
+2019-10-13 07:46:58 [cluster-ClusterId{value='5da2d672f8a0653466821139', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Discovered cluster type of STANDALONE
+2019-10-13 07:46:59 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -
+				Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-13 07:46:59 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Context refreshed
+2019-10-13 07:46:59 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Found 1 custom documentation plugin(s)
+2019-10-13 07:46:59 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner -
+				Scanning for api listing references
+2019-10-13 07:47:00 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				Started NoteServiceApplication in 4.178 seconds (JVM running for 5.139)
+2019-10-13 07:47:57 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-10-13 07:48:04 [http-nio-8082-exec-3] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				NoteController method  called
+2019-10-13 07:48:04 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				getNoteByUserId before called...
+2019-10-13 07:48:04 [http-nio-8082-exec-3] INFO  c.s.k.controller.NoteController -
+				Inside getNoteByUserId harish
+2019-10-13 07:48:04 [http-nio-8082-exec-3] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:2, serverValue:9}] to localhost:27017
+2019-10-13 07:48:04 [http-nio-8082-exec-3] INFO  c.s.k.controller.NoteController -
+				noteList: [com.stackroute.keepnote.model.Note@377ced9c]
+2019-10-13 07:48:04 [http-nio-8082-exec-3] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : getNoteByUserId
+2019-10-13 07:48:04 [http-nio-8082-exec-3] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : getNoteByUserId
+2019-10-13 07:49:55 [RMI TCP Connection(2)-127.0.0.1] INFO  org.mongodb.driver.connection -
+				Closed connection [connectionId{localValue:2, serverValue:9}] to localhost:27017 because the pool has been closed.

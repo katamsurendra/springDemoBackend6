@@ -1,0 +1,311 @@
+2019-10-11 10:58:51 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				Starting NoteServiceApplication on ip-172-31-86-114 with PID 14682 (/home/ubuntu/Downloads/Backend/NoteService/target/classes started by ubuntu in /home/ubuntu/Downloads/Backend/NoteService)
+2019-10-11 10:58:51 [main] DEBUG c.s.keepnote.NoteServiceApplication -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-11 10:58:51 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				No active profile set, falling back to default profiles: default
+2019-10-11 10:58:53 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2019-10-11 10:58:53 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-10-11 10:58:53 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener -
+				The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+2019-10-11 10:58:53 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2019-10-11 10:58:53 [main] INFO  org.mongodb.driver.cluster -
+				Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-10-11 10:58:53 [main] INFO  org.mongodb.driver.cluster -
+				Adding discovered server localhost:27017 to client view of cluster
+2019-10-11 10:58:53 [cluster-ClusterId{value='5da0606ddadd1e395a1a477e', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:1, serverValue:25}] to localhost:27017
+2019-10-11 10:58:53 [cluster-ClusterId{value='5da0606ddadd1e395a1a477e', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 2]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4618184}
+2019-10-11 10:58:53 [cluster-ClusterId{value='5da0606ddadd1e395a1a477e', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Discovered cluster type of STANDALONE
+2019-10-11 10:58:54 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -
+				Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-11 10:58:54 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Context refreshed
+2019-10-11 10:58:54 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Found 1 custom documentation plugin(s)
+2019-10-11 10:58:55 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner -
+				Scanning for api listing references
+2019-10-11 10:58:55 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				Started NoteServiceApplication in 3.732 seconds (JVM running for 4.33)
+2019-10-11 11:00:07 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-10-11 11:00:07 [http-nio-8082-exec-2] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				NoteController method  called
+2019-10-11 11:00:07 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				getNoteByUserId before called...
+2019-10-11 11:00:07 [http-nio-8082-exec-2] INFO  c.s.k.controller.NoteController -
+				Inside getNoteByUserId 1
+2019-10-11 11:00:08 [http-nio-8082-exec-2] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:2, serverValue:26}] to localhost:27017
+2019-10-11 11:00:08 [http-nio-8082-exec-2] INFO  c.s.k.controller.NoteController -
+				noteList: [com.stackroute.keepnote.model.Note@6b5c49d3]
+2019-10-11 11:00:08 [http-nio-8082-exec-2] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : getNoteByUserId
+2019-10-11 11:00:08 [http-nio-8082-exec-2] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : getNoteByUserId
+2019-10-11 11:01:57 [http-nio-8082-exec-4] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				NoteController method  called
+2019-10-11 11:01:57 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				getNoteByUserId before called...
+2019-10-11 11:01:57 [http-nio-8082-exec-4] INFO  c.s.k.controller.NoteController -
+				Inside getNoteByUserId 1
+2019-10-11 11:01:57 [http-nio-8082-exec-4] INFO  c.s.k.controller.NoteController -
+				noteList: [com.stackroute.keepnote.model.Note@5ccf360b]
+2019-10-11 11:01:57 [http-nio-8082-exec-4] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : getNoteByUserId
+2019-10-11 11:01:57 [http-nio-8082-exec-4] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : getNoteByUserId
+2019-10-11 11:04:16 [http-nio-8082-exec-6] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				NoteController method  called
+2019-10-11 11:04:16 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				getNoteByUserId before called...
+2019-10-11 11:04:16 [http-nio-8082-exec-6] INFO  c.s.k.controller.NoteController -
+				Inside getNoteByUserId 1
+2019-10-11 11:04:16 [http-nio-8082-exec-6] INFO  c.s.k.controller.NoteController -
+				noteList: [com.stackroute.keepnote.model.Note@36aac154]
+2019-10-11 11:04:16 [http-nio-8082-exec-6] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : getNoteByUserId
+2019-10-11 11:04:16 [http-nio-8082-exec-6] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : getNoteByUserId
+2019-10-11 11:07:00 [http-nio-8082-exec-9] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				NoteController method  called
+2019-10-11 11:07:00 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				createNote before called...
+2019-10-11 11:07:00 [http-nio-8082-exec-9] INFO  c.s.k.controller.NoteController -
+				note inside createNote: com.stackroute.keepnote.model.Note@7fb4fb8
+2019-10-11 11:07:00 [http-nio-8082-exec-9] INFO  c.s.keepnote.service.NoteService -
+				Inside createNote cxbvxc
+2019-10-11 11:07:00 [http-nio-8082-exec-9] INFO  c.s.keepnote.service.NoteService -
+				Inside if getNoteCreatedBy 1
+2019-10-11 11:07:00 [http-nio-8082-exec-9] INFO  c.s.keepnote.service.NoteService -
+				Inside save asd
+2019-10-11 11:07:00 [http-nio-8082-exec-9] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createNote
+2019-10-11 11:07:00 [http-nio-8082-exec-9] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createNote
+2019-10-11 11:09:04 [http-nio-8082-exec-1] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				NoteController method  called
+2019-10-11 11:09:04 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				getNoteByUserId before called...
+2019-10-11 11:09:04 [http-nio-8082-exec-1] INFO  c.s.k.controller.NoteController -
+				Inside getNoteByUserId 1
+2019-10-11 11:09:04 [http-nio-8082-exec-1] INFO  c.s.k.controller.NoteController -
+				noteList: [com.stackroute.keepnote.model.Note@32550aa, com.stackroute.keepnote.model.Note@583b21a8]
+2019-10-11 11:09:04 [http-nio-8082-exec-1] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : getNoteByUserId
+2019-10-11 11:09:04 [http-nio-8082-exec-1] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : getNoteByUserId
+2019-10-11 11:15:53 [http-nio-8082-exec-3] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				NoteController method  called
+2019-10-11 11:15:53 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				createNote before called...
+2019-10-11 11:15:53 [http-nio-8082-exec-3] INFO  c.s.k.controller.NoteController -
+				note inside createNote: com.stackroute.keepnote.model.Note@763da7d5
+2019-10-11 11:15:53 [http-nio-8082-exec-3] INFO  c.s.keepnote.service.NoteService -
+				Inside createNote full strack
+2019-10-11 11:15:53 [http-nio-8082-exec-3] INFO  c.s.keepnote.service.NoteService -
+				Inside if getNoteCreatedBy 1
+2019-10-11 11:15:53 [http-nio-8082-exec-3] INFO  c.s.keepnote.service.NoteService -
+				Inside save training
+2019-10-11 11:15:53 [http-nio-8082-exec-3] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createNote
+2019-10-11 11:15:53 [http-nio-8082-exec-3] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createNote
+2019-10-11 11:18:04 [http-nio-8082-exec-5] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				NoteController method  called
+2019-10-11 11:18:04 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				getNoteByUserId before called...
+2019-10-11 11:18:04 [http-nio-8082-exec-5] INFO  c.s.k.controller.NoteController -
+				Inside getNoteByUserId 1
+2019-10-11 11:18:04 [http-nio-8082-exec-5] INFO  c.s.k.controller.NoteController -
+				noteList: [com.stackroute.keepnote.model.Note@4fb94e99, com.stackroute.keepnote.model.Note@abbc90a, com.stackroute.keepnote.model.Note@4619cbd9]
+2019-10-11 11:18:04 [http-nio-8082-exec-5] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : getNoteByUserId
+2019-10-11 11:18:04 [http-nio-8082-exec-5] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : getNoteByUserId
+2019-10-11 11:23:34 [http-nio-8082-exec-7] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				NoteController method  called
+2019-10-11 11:23:34 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				getNoteByUserId before called...
+2019-10-11 11:23:34 [http-nio-8082-exec-7] INFO  c.s.k.controller.NoteController -
+				Inside getNoteByUserId 1
+2019-10-11 11:23:34 [http-nio-8082-exec-7] INFO  c.s.k.controller.NoteController -
+				noteList: [com.stackroute.keepnote.model.Note@3ca54b46, com.stackroute.keepnote.model.Note@389ac80a, com.stackroute.keepnote.model.Note@7d98417d]
+2019-10-11 11:23:34 [http-nio-8082-exec-7] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : getNoteByUserId
+2019-10-11 11:23:34 [http-nio-8082-exec-7] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : getNoteByUserId
+2019-10-11 11:26:25 [http-nio-8082-exec-9] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				NoteController method  called
+2019-10-11 11:26:25 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				createNote before called...
+2019-10-11 11:26:25 [http-nio-8082-exec-9] INFO  c.s.k.controller.NoteController -
+				note inside createNote: com.stackroute.keepnote.model.Note@4d05c386
+2019-10-11 11:26:25 [http-nio-8082-exec-9] INFO  c.s.keepnote.service.NoteService -
+				Inside createNote tre
+2019-10-11 11:26:25 [http-nio-8082-exec-9] INFO  c.s.keepnote.service.NoteService -
+				Inside if getNoteCreatedBy 1
+2019-10-11 11:26:25 [http-nio-8082-exec-9] INFO  c.s.keepnote.service.NoteService -
+				Inside save t6r1
+2019-10-11 11:26:25 [http-nio-8082-exec-9] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createNote
+2019-10-11 11:26:25 [http-nio-8082-exec-9] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createNote
+2019-10-11 11:28:25 [http-nio-8082-exec-1] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				NoteController method  called
+2019-10-11 11:28:25 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				createNote before called...
+2019-10-11 11:28:25 [http-nio-8082-exec-1] INFO  c.s.k.controller.NoteController -
+				note inside createNote: com.stackroute.keepnote.model.Note@19446d8b
+2019-10-11 11:28:25 [http-nio-8082-exec-1] INFO  c.s.keepnote.service.NoteService -
+				Inside createNote asda`
+2019-10-11 11:28:25 [http-nio-8082-exec-1] INFO  c.s.keepnote.service.NoteService -
+				Inside if getNoteCreatedBy 1
+2019-10-11 11:28:25 [http-nio-8082-exec-1] INFO  c.s.keepnote.service.NoteService -
+				Inside save tr3
+2019-10-11 11:28:25 [http-nio-8082-exec-1] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createNote
+2019-10-11 11:28:25 [http-nio-8082-exec-1] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createNote
+2019-10-11 11:29:17 [http-nio-8082-exec-2] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				NoteController method  called
+2019-10-11 11:29:17 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				createNote before called...
+2019-10-11 11:29:17 [http-nio-8082-exec-2] INFO  c.s.k.controller.NoteController -
+				note inside createNote: com.stackroute.keepnote.model.Note@6538e18d
+2019-10-11 11:29:17 [http-nio-8082-exec-2] INFO  c.s.keepnote.service.NoteService -
+				Inside createNote 2342
+2019-10-11 11:29:17 [http-nio-8082-exec-2] INFO  c.s.keepnote.service.NoteService -
+				Inside if getNoteCreatedBy 1
+2019-10-11 11:29:17 [http-nio-8082-exec-2] INFO  c.s.keepnote.service.NoteService -
+				Inside save tr3
+2019-10-11 11:29:17 [http-nio-8082-exec-2] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createNote
+2019-10-11 11:29:17 [http-nio-8082-exec-2] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createNote
+2019-10-11 11:29:59 [http-nio-8082-exec-3] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				NoteController method  called
+2019-10-11 11:29:59 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				getNoteByUserId before called...
+2019-10-11 11:29:59 [http-nio-8082-exec-3] INFO  c.s.k.controller.NoteController -
+				Inside getNoteByUserId 1
+2019-10-11 11:29:59 [http-nio-8082-exec-3] INFO  c.s.k.controller.NoteController -
+				noteList: [com.stackroute.keepnote.model.Note@7cc5cca5, com.stackroute.keepnote.model.Note@39c74d59, com.stackroute.keepnote.model.Note@22df46bb, com.stackroute.keepnote.model.Note@8b4d4d5, com.stackroute.keepnote.model.Note@5a468182, com.stackroute.keepnote.model.Note@59e8b216]
+2019-10-11 11:29:59 [http-nio-8082-exec-3] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : getNoteByUserId
+2019-10-11 11:29:59 [http-nio-8082-exec-3] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : getNoteByUserId
+2019-10-11 11:30:33 [http-nio-8082-exec-4] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				NoteController method  called
+2019-10-11 11:30:33 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				getNoteByUserId before called...
+2019-10-11 11:30:33 [http-nio-8082-exec-4] INFO  c.s.k.controller.NoteController -
+				Inside getNoteByUserId 1
+2019-10-11 11:30:33 [http-nio-8082-exec-4] INFO  c.s.k.controller.NoteController -
+				noteList: [com.stackroute.keepnote.model.Note@19cdb3f6, com.stackroute.keepnote.model.Note@757de931, com.stackroute.keepnote.model.Note@289e0882, com.stackroute.keepnote.model.Note@dc40cf4, com.stackroute.keepnote.model.Note@79e24cb9, com.stackroute.keepnote.model.Note@634c06d5]
+2019-10-11 11:30:33 [http-nio-8082-exec-4] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : getNoteByUserId
+2019-10-11 11:30:33 [http-nio-8082-exec-4] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : getNoteByUserId
+2019-10-11 11:34:22 [http-nio-8082-exec-6] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				NoteController method  called
+2019-10-11 11:34:22 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				createNote before called...
+2019-10-11 11:34:22 [http-nio-8082-exec-6] INFO  c.s.k.controller.NoteController -
+				note inside createNote: com.stackroute.keepnote.model.Note@386d39f1
+2019-10-11 11:34:22 [http-nio-8082-exec-6] INFO  c.s.keepnote.service.NoteService -
+				Inside createNote xZX
+2019-10-11 11:34:22 [http-nio-8082-exec-6] INFO  c.s.keepnote.service.NoteService -
+				Inside if getNoteCreatedBy 1
+2019-10-11 11:34:22 [http-nio-8082-exec-6] INFO  c.s.keepnote.service.NoteService -
+				Inside save ZXZ
+2019-10-11 11:34:22 [http-nio-8082-exec-6] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createNote
+2019-10-11 11:34:22 [http-nio-8082-exec-6] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createNote
+2019-10-11 11:34:35 [http-nio-8082-exec-7] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				NoteController method  called
+2019-10-11 11:34:35 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				getNoteByUserId before called...
+2019-10-11 11:34:35 [http-nio-8082-exec-7] INFO  c.s.k.controller.NoteController -
+				Inside getNoteByUserId 1
+2019-10-11 11:34:35 [http-nio-8082-exec-7] INFO  c.s.k.controller.NoteController -
+				noteList: [com.stackroute.keepnote.model.Note@5a4644c7, com.stackroute.keepnote.model.Note@4cafdbb2, com.stackroute.keepnote.model.Note@229b80b5, com.stackroute.keepnote.model.Note@1db7be32, com.stackroute.keepnote.model.Note@753fb13f, com.stackroute.keepnote.model.Note@47ff8661, com.stackroute.keepnote.model.Note@399f2803]
+2019-10-11 11:34:35 [http-nio-8082-exec-7] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : getNoteByUserId
+2019-10-11 11:34:35 [http-nio-8082-exec-7] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : getNoteByUserId
+2019-10-11 11:42:01 [http-nio-8082-exec-10] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				NoteController method  called
+2019-10-11 11:42:01 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				createNote before called...
+2019-10-11 11:42:01 [http-nio-8082-exec-10] INFO  c.s.k.controller.NoteController -
+				note inside createNote: com.stackroute.keepnote.model.Note@3b0c7929
+2019-10-11 11:42:01 [http-nio-8082-exec-10] INFO  c.s.keepnote.service.NoteService -
+				Inside createNote cZXzxczx
+2019-10-11 11:42:01 [http-nio-8082-exec-10] INFO  c.s.keepnote.service.NoteService -
+				Inside if getNoteCreatedBy 1
+2019-10-11 11:42:01 [http-nio-8082-exec-10] INFO  c.s.keepnote.service.NoteService -
+				Inside save scdZSXC
+2019-10-11 11:42:01 [http-nio-8082-exec-10] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createNote
+2019-10-11 11:42:01 [http-nio-8082-exec-10] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createNote
+2019-10-11 11:48:02 [http-nio-8082-exec-2] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				NoteController method  called
+2019-10-11 11:48:02 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				createNote before called...
+2019-10-11 11:48:02 [http-nio-8082-exec-2] INFO  c.s.k.controller.NoteController -
+				note inside createNote: com.stackroute.keepnote.model.Note@62caa25d
+2019-10-11 11:48:02 [http-nio-8082-exec-2] INFO  c.s.keepnote.service.NoteService -
+				Inside createNote xczvzxcv
+2019-10-11 11:48:02 [http-nio-8082-exec-2] INFO  c.s.keepnote.service.NoteService -
+				Inside if getNoteCreatedBy 1
+2019-10-11 11:48:02 [http-nio-8082-exec-2] INFO  c.s.keepnote.service.NoteService -
+				Inside save axCZX
+2019-10-11 11:48:02 [http-nio-8082-exec-2] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createNote
+2019-10-11 11:48:02 [http-nio-8082-exec-2] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createNote
+2019-10-11 11:48:16 [http-nio-8082-exec-3] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				NoteController method  called
+2019-10-11 11:48:16 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				createNote before called...
+2019-10-11 11:48:16 [http-nio-8082-exec-3] INFO  c.s.k.controller.NoteController -
+				note inside createNote: com.stackroute.keepnote.model.Note@1dadd0e
+2019-10-11 11:48:16 [http-nio-8082-exec-3] INFO  c.s.keepnote.service.NoteService -
+				Inside createNote zxczx
+2019-10-11 11:48:16 [http-nio-8082-exec-3] INFO  c.s.keepnote.service.NoteService -
+				Inside if getNoteCreatedBy 1
+2019-10-11 11:48:16 [http-nio-8082-exec-3] INFO  c.s.keepnote.service.NoteService -
+				Inside save zxczxc
+2019-10-11 11:48:16 [http-nio-8082-exec-3] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createNote
+2019-10-11 11:48:16 [http-nio-8082-exec-3] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createNote
+2019-10-11 12:20:07 [Thread-3] WARN  org.mongodb.driver.connection -
+				Got socket exception on connection [connectionId{localValue:2, serverValue:26}] to localhost:27017. All connections to localhost:27017 will be closed.
+2019-10-11 12:20:07 [Thread-3] INFO  org.mongodb.driver.connection -
+				Closed connection [connectionId{localValue:2, serverValue:26}] to localhost:27017 because there was a socket exception raised by this connection.
+2019-10-11 12:20:07 [cluster-ClusterId{value='5da0606ddadd1e395a1a477e', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:128)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted

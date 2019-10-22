@@ -1,0 +1,82 @@
+2019-10-13 07:36:18 [main] INFO  c.s.k.t.r.NoteRepositoryTest -
+				Starting NoteRepositoryTest on ip-172-31-86-114 with PID 12677 (started by ubuntu in /home/ubuntu/Downloads/Backend/NoteService)
+2019-10-13 07:36:18 [main] DEBUG c.s.k.t.r.NoteRepositoryTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-13 07:36:18 [main] INFO  c.s.k.t.r.NoteRepositoryTest -
+				No active profile set, falling back to default profiles: default
+2019-10-13 07:36:20 [main] INFO  d.f.embed.process.runtime.Executable -
+				start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@16afbd92
+2019-10-13 07:36:20 [main] INFO  org.mongodb.driver.cluster -
+				Cluster created with settings {hosts=[localhost:39905], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-10-13 07:36:20 [main] INFO  org.mongodb.driver.cluster -
+				Adding discovered server localhost:39905 to client view of cluster
+2019-10-13 07:36:20 [cluster-ClusterId{value='5da2d3f4f8a0653185ba625c', description='null'}-localhost:39905] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:39905
+2019-10-13 07:36:20 [cluster-ClusterId{value='5da2d3f4f8a0653185ba625c', description='null'}-localhost:39905] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=localhost:39905, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 2]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1224265}
+2019-10-13 07:36:20 [cluster-ClusterId{value='5da2d3f4f8a0653185ba625c', description='null'}-localhost:39905] INFO  org.mongodb.driver.cluster -
+				Discovered cluster type of STANDALONE
+2019-10-13 07:36:21 [main] INFO  c.s.k.t.r.NoteRepositoryTest -
+				Started NoteRepositoryTest in 2.699 seconds (JVM running for 3.877)
+2019-10-13 07:36:21 [main] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:39905
+2019-10-13 07:36:21 [main] INFO  c.s.keepnote.service.NoteService -
+				Inside createNote Mumbai Indians vs RCB match scheduled  for 4 PM
+2019-10-13 07:36:21 [main] INFO  c.s.keepnote.service.NoteService -
+				Inside else IPL lists
+2019-10-13 07:36:21 [main] INFO  c.s.keepnote.service.NoteService -
+				Inside insert IPL lists
+2019-10-13 07:36:21 [main] INFO  c.s.keepnote.service.NoteService -
+				Inside createNote Mumbai Indians vs RCB match scheduled  for 4 PM
+2019-10-13 07:36:21 [main] INFO  c.s.keepnote.service.NoteService -
+				Inside else IPL lists
+2019-10-13 07:36:21 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				Starting LoggerTest on ip-172-31-86-114 with PID 12677 (started by ubuntu in /home/ubuntu/Downloads/Backend/NoteService)
+2019-10-13 07:36:21 [main] DEBUG c.s.keepnote.test.log.LoggerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-13 07:36:21 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				No active profile set, falling back to default profiles: default
+2019-10-13 07:36:23 [main] INFO  d.f.embed.process.runtime.Executable -
+				start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@2801827a
+2019-10-13 07:36:23 [main] INFO  org.mongodb.driver.cluster -
+				Cluster created with settings {hosts=[localhost:46101], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-10-13 07:36:23 [main] INFO  org.mongodb.driver.cluster -
+				Adding discovered server localhost:46101 to client view of cluster
+2019-10-13 07:36:23 [cluster-ClusterId{value='5da2d3f7f8a0653185ba625d', description='null'}-localhost:46101] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:3, serverValue:1}] to localhost:46101
+2019-10-13 07:36:23 [cluster-ClusterId{value='5da2d3f7f8a0653185ba625d', description='null'}-localhost:46101] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=localhost:46101, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 2]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=393636}
+2019-10-13 07:36:23 [cluster-ClusterId{value='5da2d3f7f8a0653185ba625d', description='null'}-localhost:46101] INFO  org.mongodb.driver.cluster -
+				Discovered cluster type of STANDALONE
+2019-10-13 07:36:23 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -
+				Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-13 07:36:24 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Context refreshed
+2019-10-13 07:36:24 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Found 1 custom documentation plugin(s)
+2019-10-13 07:36:24 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner -
+				Scanning for api listing references
+2019-10-13 07:36:25 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				Started LoggerTest in 3.147 seconds (JVM running for 7.806)
+2019-10-13 07:36:25 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				Starting NoteControllerTest on ip-172-31-86-114 with PID 12677 (started by ubuntu in /home/ubuntu/Downloads/Backend/NoteService)
+2019-10-13 07:36:25 [main] DEBUG c.s.k.t.c.NoteControllerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-13 07:36:25 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				No active profile set, falling back to default profiles: default
+2019-10-13 07:36:25 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				Started NoteControllerTest in 0.565 seconds (JVM running for 8.429)
+2019-10-13 07:36:26 [main] INFO  c.s.k.controller.NoteController -
+				Inside getNoteByUserId Jhon123
+2019-10-13 07:36:26 [main] INFO  c.s.k.controller.NoteController -
+				noteList: [com.stackroute.keepnote.model.Note@5d404a3c]
+2019-10-13 07:36:26 [main] INFO  c.s.k.controller.NoteController -
+				Inside delet note
+2019-10-13 07:36:26 [main] INFO  c.s.k.controller.NoteController -
+				Inside getNoteByUserId Jhon123
+2019-10-13 07:36:26 [main] INFO  c.s.k.controller.NoteController -
+				noteList: null
+2019-10-13 07:36:26 [main] INFO  c.s.k.controller.NoteController -
+				Inside delet note
+2019-10-13 07:36:26 [Thread-5] INFO  org.mongodb.driver.connection -
+				Closed connection [connectionId{localValue:2, serverValue:2}] to localhost:39905 because the pool has been closed.

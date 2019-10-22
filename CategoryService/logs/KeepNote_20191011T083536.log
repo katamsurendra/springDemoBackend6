@@ -1,0 +1,46 @@
+2019-10-11 08:35:37 [background-preinit] DEBUG o.h.v.m.ResourceBundleMessageInterpolator -
+				Loaded expression factory via original TCCL
+2019-10-11 08:35:37 [background-preinit] DEBUG o.h.v.i.engine.ValidatorFactoryImpl -
+				HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-11 08:35:37 [background-preinit] DEBUG o.h.v.i.engine.ValidatorFactoryImpl -
+				HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-11 08:35:37 [background-preinit] DEBUG o.h.v.i.engine.ValidatorFactoryImpl -
+				HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-11 08:35:37 [background-preinit] DEBUG o.h.v.i.engine.ValidatorFactoryImpl -
+				HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-11 08:35:37 [background-preinit] DEBUG o.h.v.i.engine.ValidatorFactoryImpl -
+				HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-11 08:35:37 [main] INFO  c.s.k.CategoryServiceApplication -
+				Starting CategoryServiceApplication on ip-172-31-86-114 with PID 7038 (/home/ubuntu/Downloads/Backend/CategoryService/target/classes started by ubuntu in /home/ubuntu/Downloads/Backend/CategoryService)
+2019-10-11 08:35:37 [main] DEBUG c.s.k.CategoryServiceApplication -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-11 08:35:37 [main] INFO  c.s.k.CategoryServiceApplication -
+				No active profile set, falling back to default profiles: default
+2019-10-11 08:35:39 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2019-10-11 08:35:39 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-10-11 08:35:39 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener -
+				The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+2019-10-11 08:35:39 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2019-10-11 08:35:39 [main] INFO  org.mongodb.driver.cluster -
+				Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-10-11 08:35:39 [main] INFO  org.mongodb.driver.cluster -
+				Adding discovered server localhost:27017 to client view of cluster
+2019-10-11 08:35:39 [cluster-ClusterId{value='5da03edbdadd1e1b7ec4f436', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:1, serverValue:14}] to localhost:27017
+2019-10-11 08:35:39 [cluster-ClusterId{value='5da03edbdadd1e1b7ec4f436', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 2]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2702754}
+2019-10-11 08:35:39 [cluster-ClusterId{value='5da03edbdadd1e1b7ec4f436', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Discovered cluster type of STANDALONE
+2019-10-11 08:35:40 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -
+				Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-11 08:35:41 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Context refreshed
+2019-10-11 08:35:41 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Found 1 custom documentation plugin(s)
+2019-10-11 08:35:41 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner -
+				Scanning for api listing references
+2019-10-11 08:35:41 [main] INFO  c.s.k.CategoryServiceApplication -
+				Started CategoryServiceApplication in 4.066 seconds (JVM running for 4.825)

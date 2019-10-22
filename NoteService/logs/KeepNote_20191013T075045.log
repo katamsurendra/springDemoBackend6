@@ -1,0 +1,322 @@
+2019-10-13 07:50:45 [background-preinit] DEBUG o.h.v.m.ResourceBundleMessageInterpolator -
+				Loaded expression factory via original TCCL
+2019-10-13 07:50:45 [background-preinit] DEBUG o.h.v.i.engine.ValidatorFactoryImpl -
+				HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-13 07:50:45 [background-preinit] DEBUG o.h.v.i.engine.ValidatorFactoryImpl -
+				HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-13 07:50:45 [background-preinit] DEBUG o.h.v.i.engine.ValidatorFactoryImpl -
+				HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-13 07:50:45 [background-preinit] DEBUG o.h.v.i.engine.ValidatorFactoryImpl -
+				HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-13 07:50:45 [background-preinit] DEBUG o.h.v.i.engine.ValidatorFactoryImpl -
+				HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-13 07:50:45 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				Starting NoteServiceApplication on ip-172-31-86-114 with PID 13683 (/home/ubuntu/Downloads/Backend/NoteService/target/classes started by ubuntu in /home/ubuntu/Downloads/Backend/NoteService)
+2019-10-13 07:50:45 [main] DEBUG c.s.keepnote.NoteServiceApplication -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-13 07:50:45 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				No active profile set, falling back to default profiles: default
+2019-10-13 07:50:47 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2019-10-13 07:50:47 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-10-13 07:50:47 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener -
+				The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+2019-10-13 07:50:47 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2019-10-13 07:50:48 [main] INFO  org.mongodb.driver.cluster -
+				Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-10-13 07:50:48 [main] INFO  org.mongodb.driver.cluster -
+				Adding discovered server localhost:27017 to client view of cluster
+2019-10-13 07:50:48 [cluster-ClusterId{value='5da2d758f8a0653573bfd03f', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:1, serverValue:10}] to localhost:27017
+2019-10-13 07:50:48 [cluster-ClusterId{value='5da2d758f8a0653573bfd03f', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 2]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2385488}
+2019-10-13 07:50:48 [cluster-ClusterId{value='5da2d758f8a0653573bfd03f', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Discovered cluster type of STANDALONE
+2019-10-13 07:50:48 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -
+				Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-13 07:50:49 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Context refreshed
+2019-10-13 07:50:49 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Found 1 custom documentation plugin(s)
+2019-10-13 07:50:49 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner -
+				Scanning for api listing references
+2019-10-13 07:50:49 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				Started NoteServiceApplication in 3.888 seconds (JVM running for 4.483)
+2019-10-13 07:51:16 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-10-13 07:51:17 [http-nio-8082-exec-1] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				NoteController method  called
+2019-10-13 07:51:17 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				createNote before called...
+2019-10-13 07:51:17 [http-nio-8082-exec-1] INFO  c.s.k.controller.NoteController -
+				note inside createNote: com.stackroute.keepnote.model.Note@11ef8cb
+2019-10-13 07:51:17 [http-nio-8082-exec-1] INFO  c.s.keepnote.service.NoteService -
+				Inside createNote 3213123
+2019-10-13 07:51:17 [http-nio-8082-exec-1] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:2, serverValue:11}] to localhost:27017
+2019-10-13 07:51:17 [http-nio-8082-exec-1] INFO  c.s.keepnote.service.NoteService -
+				Inside if getNoteCreatedBy harish
+2019-10-13 07:51:17 [http-nio-8082-exec-1] INFO  c.s.keepnote.service.NoteService -
+				Inside save 213123
+2019-10-13 07:51:17 [http-nio-8082-exec-1] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createNote
+2019-10-13 07:51:17 [http-nio-8082-exec-1] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createNote
+2019-10-13 10:30:49 [cluster-ClusterId{value='5da2d758f8a0653573bfd03f', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:530)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:421)
+	at com.mongodb.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:290)
+	at com.mongodb.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:255)
+	at com.mongodb.connection.CommandHelper.sendAndReceive(CommandHelper.java:84)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:34)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:91)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:51)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:128)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:547)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:418)
+	... 9 common frames omitted
+2019-10-13 10:31:00 [cluster-ClusterId{value='5da2d758f8a0653573bfd03f', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:4, serverValue:19}] to localhost:27017
+2019-10-13 10:31:00 [cluster-ClusterId{value='5da2d758f8a0653573bfd03f', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 2]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=706350}
+2019-10-13 10:38:18 [cluster-ClusterId{value='5da2d758f8a0653573bfd03f', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:530)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:421)
+	at com.mongodb.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:290)
+	at com.mongodb.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:255)
+	at com.mongodb.connection.CommandHelper.sendAndReceive(CommandHelper.java:84)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:34)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:91)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:51)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:128)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:547)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:418)
+	... 9 common frames omitted
+2019-10-13 11:22:30 [cluster-ClusterId{value='5da2d758f8a0653573bfd03f', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: null
+	at java.net.SocksSocketImpl.remainingMillis(SocksSocketImpl.java:111)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+2019-10-13 11:28:33 [cluster-ClusterId{value='5da2d758f8a0653573bfd03f', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:530)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:421)
+	at com.mongodb.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:290)
+	at com.mongodb.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:255)
+	at com.mongodb.connection.CommandHelper.sendAndReceive(CommandHelper.java:84)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:34)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:91)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:51)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:547)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:418)
+	... 9 common frames omitted
+2019-10-13 11:30:40 [cluster-ClusterId{value='5da2d758f8a0653573bfd03f', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:41, serverValue:173}] to localhost:27017
+2019-10-13 11:30:41 [cluster-ClusterId{value='5da2d758f8a0653573bfd03f', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 2]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=341962}
+2019-10-13 11:35:50 [cluster-ClusterId{value='5da2d758f8a0653573bfd03f', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:530)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:421)
+	at com.mongodb.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:290)
+	at com.mongodb.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:255)
+	at com.mongodb.connection.CommandHelper.sendAndReceive(CommandHelper.java:84)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:34)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:91)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:51)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:128)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:547)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:418)
+	... 9 common frames omitted
+2019-10-13 11:55:57 [cluster-ClusterId{value='5da2d758f8a0653573bfd03f', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:51, serverValue:215}] to localhost:27017
+2019-10-13 11:55:58 [cluster-ClusterId{value='5da2d758f8a0653573bfd03f', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 2]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=641828}
+2019-10-13 11:57:29 [cluster-ClusterId{value='5da2d758f8a0653573bfd03f', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:530)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:421)
+	at com.mongodb.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:290)
+	at com.mongodb.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:255)
+	at com.mongodb.connection.CommandHelper.sendAndReceive(CommandHelper.java:84)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:34)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:91)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:51)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:128)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:547)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:418)
+	... 9 common frames omitted
+2019-10-13 11:58:29 [cluster-ClusterId{value='5da2d758f8a0653573bfd03f', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:53, serverValue:224}] to localhost:27017
+2019-10-13 12:00:31 [cluster-ClusterId{value='5da2d758f8a0653573bfd03f', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:55, serverValue:230}] to localhost:27017
+2019-10-13 12:00:46 [cluster-ClusterId{value='5da2d758f8a0653573bfd03f', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 2]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=7439784938}
+2019-10-13 12:02:10 [cluster-ClusterId{value='5da2d758f8a0653573bfd03f', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:530)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:421)
+	at com.mongodb.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:290)
+	at com.mongodb.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:255)
+	at com.mongodb.connection.CommandHelper.sendAndReceive(CommandHelper.java:84)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:34)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:91)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:51)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:128)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:547)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:418)
+	... 9 common frames omitted
+2019-10-13 12:42:54 [cluster-ClusterId{value='5da2d758f8a0653573bfd03f', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: null
+	at java.net.SocksSocketImpl.remainingMillis(SocksSocketImpl.java:111)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+2019-10-13 12:48:18 [cluster-ClusterId{value='5da2d758f8a0653573bfd03f', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:530)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:421)
+	at com.mongodb.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:290)
+	at com.mongodb.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:255)
+	at com.mongodb.connection.CommandHelper.sendAndReceive(CommandHelper.java:84)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:34)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:91)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:51)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:547)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:418)
+	... 9 common frames omitted
+2019-10-13 12:52:21 [cluster-ClusterId{value='5da2d758f8a0653573bfd03f', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: null
+	at java.net.SocksSocketImpl.remainingMillis(SocksSocketImpl.java:111)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+2019-10-13 12:55:17 [cluster-ClusterId{value='5da2d758f8a0653573bfd03f', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:530)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:421)
+	at com.mongodb.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:290)
+	at com.mongodb.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:255)
+	at com.mongodb.connection.CommandHelper.sendAndReceive(CommandHelper.java:84)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:34)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:91)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:51)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:547)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:418)
+	... 9 common frames omitted
+2019-10-13 12:57:47 [cluster-ClusterId{value='5da2d758f8a0653573bfd03f', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:93, serverValue:421}] to localhost:27017
+2019-10-13 12:58:24 [cluster-ClusterId{value='5da2d758f8a0653573bfd03f', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 2]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=10387661571}
+2019-10-13 13:00:15 [cluster-ClusterId{value='5da2d758f8a0653573bfd03f', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:94, serverValue:425}] to localhost:27017
+2019-10-13 13:01:05 [Thread-3] INFO  org.mongodb.driver.connection -
+				Closed connection [connectionId{localValue:2, serverValue:11}] to localhost:27017 because there was a socket exception raised on another connection from this pool.
+2019-10-13 13:01:06 [Thread-3] INFO  org.mongodb.driver.connection -
+				Closed connection [connectionId{localValue:95}] to localhost:27017 because there was a socket exception raised by this connection.
+2019-10-13 13:01:06 [Thread-3] INFO  org.mongodb.driver.connection -
+				Closed connection [connectionId{localValue:96}] to localhost:27017 because there was a socket exception raised by this connection.
