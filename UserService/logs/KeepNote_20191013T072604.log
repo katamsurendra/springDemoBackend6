@@ -1,0 +1,60 @@
+2019-10-13 07:26:05 [main] INFO  c.s.k.t.r.UserRepositoryTest -
+				Starting UserRepositoryTest on ip-172-31-86-114 with PID 11943 (started by ubuntu in /home/ubuntu/Downloads/Backend/UserService)
+2019-10-13 07:26:05 [main] DEBUG c.s.k.t.r.UserRepositoryTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-13 07:26:05 [main] INFO  c.s.k.t.r.UserRepositoryTest -
+				No active profile set, falling back to default profiles: default
+2019-10-13 07:26:07 [main] INFO  d.f.embed.process.runtime.Executable -
+				start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@1051817b
+2019-10-13 07:26:07 [main] INFO  org.mongodb.driver.cluster -
+				Cluster created with settings {hosts=[localhost:46487], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-10-13 07:26:07 [main] INFO  org.mongodb.driver.cluster -
+				Adding discovered server localhost:46487 to client view of cluster
+2019-10-13 07:26:07 [cluster-ClusterId{value='5da2d18ff8a0652ea709033f', description='null'}-localhost:46487] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:46487
+2019-10-13 07:26:07 [cluster-ClusterId{value='5da2d18ff8a0652ea709033f', description='null'}-localhost:46487] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=localhost:46487, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 2]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1568029}
+2019-10-13 07:26:07 [cluster-ClusterId{value='5da2d18ff8a0652ea709033f', description='null'}-localhost:46487] INFO  org.mongodb.driver.cluster -
+				Discovered cluster type of STANDALONE
+2019-10-13 07:26:07 [main] INFO  c.s.k.t.r.UserRepositoryTest -
+				Started UserRepositoryTest in 2.556 seconds (JVM running for 3.672)
+2019-10-13 07:26:07 [main] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:46487
+2019-10-13 07:26:08 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				Starting LoggerTest on ip-172-31-86-114 with PID 11943 (started by ubuntu in /home/ubuntu/Downloads/Backend/UserService)
+2019-10-13 07:26:08 [main] DEBUG c.s.keepnote.test.log.LoggerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-13 07:26:08 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				No active profile set, falling back to default profiles: default
+2019-10-13 07:26:10 [main] INFO  d.f.embed.process.runtime.Executable -
+				start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@28be7fec
+2019-10-13 07:26:10 [main] INFO  org.mongodb.driver.cluster -
+				Cluster created with settings {hosts=[localhost:39047], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-10-13 07:26:10 [main] INFO  org.mongodb.driver.cluster -
+				Adding discovered server localhost:39047 to client view of cluster
+2019-10-13 07:26:10 [cluster-ClusterId{value='5da2d192f8a0652ea7090340', description='null'}-localhost:39047] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:3, serverValue:1}] to localhost:39047
+2019-10-13 07:26:10 [cluster-ClusterId{value='5da2d192f8a0652ea7090340', description='null'}-localhost:39047] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=localhost:39047, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 2]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=396716}
+2019-10-13 07:26:10 [cluster-ClusterId{value='5da2d192f8a0652ea7090340', description='null'}-localhost:39047] INFO  org.mongodb.driver.cluster -
+				Discovered cluster type of STANDALONE
+2019-10-13 07:26:10 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -
+				Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-13 07:26:11 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Context refreshed
+2019-10-13 07:26:11 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Found 1 custom documentation plugin(s)
+2019-10-13 07:26:11 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner -
+				Scanning for api listing references
+2019-10-13 07:26:11 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				Started LoggerTest in 3.221 seconds (JVM running for 7.627)
+2019-10-13 07:26:11 [main] INFO  c.s.k.t.c.UserControllerTest -
+				Starting UserControllerTest on ip-172-31-86-114 with PID 11943 (started by ubuntu in /home/ubuntu/Downloads/Backend/UserService)
+2019-10-13 07:26:11 [main] DEBUG c.s.k.t.c.UserControllerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-13 07:26:11 [main] INFO  c.s.k.t.c.UserControllerTest -
+				No active profile set, falling back to default profiles: default
+2019-10-13 07:26:12 [main] INFO  c.s.k.t.c.UserControllerTest -
+				Started UserControllerTest in 0.622 seconds (JVM running for 8.303)
+2019-10-13 07:26:12 [Thread-5] INFO  org.mongodb.driver.connection -
+				Closed connection [connectionId{localValue:2, serverValue:2}] to localhost:46487 because the pool has been closed.
