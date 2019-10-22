@@ -1,0 +1,51 @@
+2019-10-16 11:31:33 [main] INFO  c.s.k.ReminderServiceApplication -
+				Starting ReminderServiceApplication on ip-172-31-92-115 with PID 7720 (/home/ubuntu/Desktop/abc/FinalDemo/Backend/ReminderService/target/classes started by ubuntu in /home/ubuntu/Desktop/abc/FinalDemo/Backend/ReminderService)
+2019-10-16 11:31:33 [main] DEBUG c.s.k.ReminderServiceApplication -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-16 11:31:33 [main] INFO  c.s.k.ReminderServiceApplication -
+				No active profile set, falling back to default profiles: default
+2019-10-16 11:31:34 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2019-10-16 11:31:34 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-10-16 11:31:34 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener -
+				The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+2019-10-16 11:31:34 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2019-10-16 11:31:35 [main] INFO  org.mongodb.driver.cluster -
+				Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-10-16 11:31:35 [main] INFO  org.mongodb.driver.cluster -
+				Adding discovered server localhost:27017 to client view of cluster
+2019-10-16 11:31:35 [cluster-ClusterId{value='5da6ff97c557ff1e289e78e0', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+2019-10-16 11:31:36 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -
+				Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-16 11:31:36 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Context refreshed
+2019-10-16 11:31:36 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Found 1 custom documentation plugin(s)
+2019-10-16 11:31:36 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner -
+				Scanning for api listing references
+2019-10-16 11:31:36 [main] INFO  c.s.k.ReminderServiceApplication -
+				Started ReminderServiceApplication in 4.273 seconds (JVM running for 4.946)
+2019-10-16 11:32:05 [cluster-ClusterId{value='5da6ff97c557ff1e289e78e0', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:4, serverValue:1}] to localhost:27017
+2019-10-16 11:32:05 [cluster-ClusterId{value='5da6ff97c557ff1e289e78e0', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 2]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2049576}
+2019-10-16 11:32:05 [cluster-ClusterId{value='5da6ff97c557ff1e289e78e0', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Discovered cluster type of STANDALONE

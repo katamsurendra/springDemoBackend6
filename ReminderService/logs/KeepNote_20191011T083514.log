@@ -1,0 +1,116 @@
+2019-10-11 08:35:15 [main] INFO  c.s.k.ReminderServiceApplication -
+				Starting ReminderServiceApplication on ip-172-31-86-114 with PID 6925 (/home/ubuntu/Downloads/Backend/ReminderService/target/classes started by ubuntu in /home/ubuntu/Downloads/Backend/ReminderService)
+2019-10-11 08:35:15 [main] DEBUG c.s.k.ReminderServiceApplication -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-11 08:35:15 [main] INFO  c.s.k.ReminderServiceApplication -
+				No active profile set, falling back to default profiles: default
+2019-10-11 08:35:16 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2019-10-11 08:35:16 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-10-11 08:35:16 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener -
+				The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+2019-10-11 08:35:16 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2019-10-11 08:35:17 [main] INFO  org.mongodb.driver.cluster -
+				Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-10-11 08:35:17 [main] INFO  org.mongodb.driver.cluster -
+				Adding discovered server localhost:27017 to client view of cluster
+2019-10-11 08:35:17 [cluster-ClusterId{value='5da03ec5dadd1e1b0d3709ec', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:1, serverValue:12}] to localhost:27017
+2019-10-11 08:35:17 [cluster-ClusterId{value='5da03ec5dadd1e1b0d3709ec', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 2]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2314776}
+2019-10-11 08:35:17 [cluster-ClusterId{value='5da03ec5dadd1e1b0d3709ec', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster -
+				Discovered cluster type of STANDALONE
+2019-10-11 08:35:17 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -
+				Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-11 08:35:18 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Context refreshed
+2019-10-11 08:35:18 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Found 1 custom documentation plugin(s)
+2019-10-11 08:35:18 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner -
+				Scanning for api listing references
+2019-10-11 08:35:18 [main] INFO  c.s.k.ReminderServiceApplication -
+				Started ReminderServiceApplication in 3.676 seconds (JVM running for 4.24)
+2019-10-11 09:18:03 [http-nio-9000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-10-11 09:18:03 [http-nio-9000-exec-3] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				registerUser method of UserController called
+2019-10-11 09:18:03 [http-nio-9000-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				createReminder before called...
+2019-10-11 09:18:03 [http-nio-9000-exec-3] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createReminder
+2019-10-11 09:18:03 [http-nio-9000-exec-3] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createReminder
+2019-10-11 09:42:40 [http-nio-9000-exec-8] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				registerUser method of UserController called
+2019-10-11 09:42:40 [http-nio-9000-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				createReminder before called...
+2019-10-11 09:42:40 [http-nio-9000-exec-8] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createReminder
+2019-10-11 09:42:40 [http-nio-9000-exec-8] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createReminder
+2019-10-11 09:42:40 [http-nio-9000-exec-9] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				registerUser method of UserController called
+2019-10-11 09:42:40 [http-nio-9000-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				createReminder before called...
+2019-10-11 09:42:40 [http-nio-9000-exec-9] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createReminder
+2019-10-11 09:42:40 [http-nio-9000-exec-9] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createReminder
+2019-10-11 09:42:40 [http-nio-9000-exec-10] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				registerUser method of UserController called
+2019-10-11 09:42:40 [http-nio-9000-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				createReminder before called...
+2019-10-11 09:42:40 [http-nio-9000-exec-10] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createReminder
+2019-10-11 09:42:40 [http-nio-9000-exec-10] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createReminder
+2019-10-11 11:16:13 [http-nio-9000-exec-5] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				registerUser method of UserController called
+2019-10-11 11:16:13 [http-nio-9000-exec-6] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				registerUser method of UserController called
+2019-10-11 11:16:13 [http-nio-9000-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				createReminder before called...
+2019-10-11 11:16:13 [http-nio-9000-exec-5] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createReminder
+2019-10-11 11:16:13 [http-nio-9000-exec-5] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createReminder
+2019-10-11 11:16:13 [http-nio-9000-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				createReminder before called...
+2019-10-11 11:16:13 [http-nio-9000-exec-6] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createReminder
+2019-10-11 11:16:13 [http-nio-9000-exec-6] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createReminder
+2019-10-11 11:27:42 [http-nio-9000-exec-9] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				registerUser method of UserController called
+2019-10-11 11:27:42 [http-nio-9000-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				createReminder before called...
+2019-10-11 11:27:42 [http-nio-9000-exec-9] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createReminder
+2019-10-11 11:27:42 [http-nio-9000-exec-9] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createReminder
+2019-10-11 11:28:59 [http-nio-9000-exec-1] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				registerUser method of UserController called
+2019-10-11 11:28:59 [http-nio-9000-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				createReminder before called...
+2019-10-11 11:28:59 [http-nio-9000-exec-1] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createReminder
+2019-10-11 11:28:59 [http-nio-9000-exec-1] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createReminder
+2019-10-11 11:32:20 [http-nio-9000-exec-4] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				registerUser method of UserController called
+2019-10-11 11:32:20 [http-nio-9000-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				createReminder before called...
+2019-10-11 11:32:20 [http-nio-9000-exec-4] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createReminder
+2019-10-11 11:32:20 [http-nio-9000-exec-4] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createReminder
+2019-10-11 11:34:14 [http-nio-9000-exec-5] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				registerUser method of UserController called
+2019-10-11 11:34:14 [http-nio-9000-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				createReminder before called...
+2019-10-11 11:34:14 [http-nio-9000-exec-5] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createReminder
+2019-10-11 11:34:14 [http-nio-9000-exec-5] DEBUG c.s.keepnote.aspectj.LoggingAspect -
+				Method Name : createReminder

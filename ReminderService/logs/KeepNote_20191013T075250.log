@@ -1,0 +1,62 @@
+2019-10-13 07:52:51 [main] INFO  c.s.k.t.r.ReminderRepositoryTest -
+				Starting ReminderRepositoryTest on ip-172-31-86-114 with PID 13962 (started by ubuntu in /home/ubuntu/Downloads/Backend/ReminderService)
+2019-10-13 07:52:51 [main] DEBUG c.s.k.t.r.ReminderRepositoryTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-13 07:52:51 [main] INFO  c.s.k.t.r.ReminderRepositoryTest -
+				No active profile set, falling back to default profiles: default
+2019-10-13 07:52:52 [main] INFO  d.f.e.process.runtime.ProcessControl -
+				stopOrDestroyProcess: process hasn't exited 
+2019-10-13 07:52:52 [main] INFO  d.f.embed.process.runtime.Executable -
+				start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@23c388c2
+2019-10-13 07:52:53 [main] INFO  org.mongodb.driver.cluster -
+				Cluster created with settings {hosts=[localhost:40281], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-10-13 07:52:53 [main] INFO  org.mongodb.driver.cluster -
+				Adding discovered server localhost:40281 to client view of cluster
+2019-10-13 07:52:53 [cluster-ClusterId{value='5da2d7d5f8a065368a9e52a2', description='null'}-localhost:40281] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:40281
+2019-10-13 07:52:53 [cluster-ClusterId{value='5da2d7d5f8a065368a9e52a2', description='null'}-localhost:40281] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=localhost:40281, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 2]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1831639}
+2019-10-13 07:52:53 [cluster-ClusterId{value='5da2d7d5f8a065368a9e52a2', description='null'}-localhost:40281] INFO  org.mongodb.driver.cluster -
+				Discovered cluster type of STANDALONE
+2019-10-13 07:52:53 [main] INFO  c.s.k.t.r.ReminderRepositoryTest -
+				Started ReminderRepositoryTest in 2.842 seconds (JVM running for 4.03)
+2019-10-13 07:52:54 [main] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:40281
+2019-10-13 07:52:54 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				Starting LoggerTest on ip-172-31-86-114 with PID 13962 (started by ubuntu in /home/ubuntu/Downloads/Backend/ReminderService)
+2019-10-13 07:52:54 [main] DEBUG c.s.keepnote.test.log.LoggerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-13 07:52:54 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				No active profile set, falling back to default profiles: default
+2019-10-13 07:52:57 [main] INFO  d.f.embed.process.runtime.Executable -
+				start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@7d59e968
+2019-10-13 07:52:57 [main] INFO  org.mongodb.driver.cluster -
+				Cluster created with settings {hosts=[localhost:38355], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-10-13 07:52:57 [main] INFO  org.mongodb.driver.cluster -
+				Adding discovered server localhost:38355 to client view of cluster
+2019-10-13 07:52:57 [cluster-ClusterId{value='5da2d7d9f8a065368a9e52a3', description='null'}-localhost:38355] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:3, serverValue:1}] to localhost:38355
+2019-10-13 07:52:57 [cluster-ClusterId{value='5da2d7d9f8a065368a9e52a3', description='null'}-localhost:38355] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=localhost:38355, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 2]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=333190}
+2019-10-13 07:52:57 [cluster-ClusterId{value='5da2d7d9f8a065368a9e52a3', description='null'}-localhost:38355] INFO  org.mongodb.driver.cluster -
+				Discovered cluster type of STANDALONE
+2019-10-13 07:52:57 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -
+				Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-13 07:52:58 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Context refreshed
+2019-10-13 07:52:58 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Found 1 custom documentation plugin(s)
+2019-10-13 07:52:58 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner -
+				Scanning for api listing references
+2019-10-13 07:52:58 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				Started LoggerTest in 4.27 seconds (JVM running for 9.053)
+2019-10-13 07:52:59 [main] INFO  c.s.k.t.c.ReminderControllerTest -
+				Starting ReminderControllerTest on ip-172-31-86-114 with PID 13962 (started by ubuntu in /home/ubuntu/Downloads/Backend/ReminderService)
+2019-10-13 07:52:59 [main] DEBUG c.s.k.t.c.ReminderControllerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-13 07:52:59 [main] INFO  c.s.k.t.c.ReminderControllerTest -
+				No active profile set, falling back to default profiles: default
+2019-10-13 07:52:59 [main] INFO  c.s.k.t.c.ReminderControllerTest -
+				Started ReminderControllerTest in 0.592 seconds (JVM running for 9.703)
+2019-10-13 07:53:00 [Thread-6] INFO  org.mongodb.driver.connection -
+				Closed connection [connectionId{localValue:2, serverValue:2}] to localhost:40281 because the pool has been closed.
